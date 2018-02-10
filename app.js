@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
 
-const MONGOURL = process.env.MONGODB_URI || 'mongodb://localhost:/polnexus-app'
+const MONGOURL = process.env.MONGODB_URI || 'mongodb://localhost:/fishackathon-app'
 mongoose.connect(MONGOURL, err => {
     console.log(err || `Connected to MongoDB at ${MONGOURL}`);
 });
@@ -30,7 +30,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api', require('./routes/api'));
 app.use('/', require('./routes/index'));
-// app.use('/users', require('./routes/users'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

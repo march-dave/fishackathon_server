@@ -1,7 +1,7 @@
-https://polnexusserver.herokuapp.com/
+https://fishackathonserver.herokuapp.com/
 
-GET: https://polnexusserver.herokuapp.com/api/clients
+GET: https://fishackathonserver.herokuapp.com/api/clients
 
-POST: https://polnexusserver.herokuapp.com/api/clients
+POST: https://fishackathonserver.herokuapp.com/api/clients
 
-DELETE: https://polnexusserver.herokuapp.com/api/clients
+DELETE: https://fishackathonserver.herokuapp.com/api/clients
