@@ -2,8 +2,9 @@
     "name": "polnexus_server",
     "version": "0.0.0",
     "private": true,
+    "flat": true,
     "scripts": {
-        "start": "node ./bin/www"
+        "start": "node ./bin/   "
     },
     "dependencies": {
         "body-parser": "*",
@@ -15,5 +16,10 @@
         "morgan": "*",
         "mssql": "*",
         "serve-favicon": "*"
+    },
+    "resolutions": {
+        "depd": "1.1.1",
+        "setprototypeof": "1.0.3",
+        "sliced": "0.0.5"
     }
 }
