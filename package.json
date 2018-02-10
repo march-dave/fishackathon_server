@@ -6,14 +6,14 @@
         "start": "node ./bin/www"
     },
     "dependencies": {
-        "body-parser": "",
-        "cookie-parser": "",
-        "debug": "",
-        "ejs": "",
-        "express": "",
-        "mongoose": "",
-        "morgan": "",
-        "mssql": "",
-        "serve-favicon": ""
+        "body-parser": "*",
+        "cookie-parser": "*",
+        "debug": "*",
+        "ejs": "*",
+        "express": "*",
+        "mongoose": "*",
+        "morgan": "*",
+        "mssql": "*",
+        "serve-favicon": "*"
     }
 }
