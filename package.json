@@ -1,10 +1,9 @@
 {
-    "name": "polnexus_server",
+    "name": "fishackathon_server",
     "version": "0.0.0",
     "private": true,
-    "flat": true,
     "scripts": {
-        "start": "node ./bin/   "
+        "start": "node ./bin/www"
     },
     "dependencies": {
         "body-parser": "*",
@@ -15,10 +14,5 @@
         "mongoose": "*",
         "morgan": "*",
         "serve-favicon": "*"
-    },
-    "resolutions": {
-        "depd": "1.1.1",
-        "setprototypeof": "1.0.3",
-        "sliced": "0.0.5"
     }
 }
