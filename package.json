@@ -17,6 +17,7 @@
         "express": "*",
         "mongoose": "*",
         "morgan": "*",
-        "serve-favicon": "*"
+        "serve-favicon": "*",
+        "ws": "^4.0.0"
     }
 }
