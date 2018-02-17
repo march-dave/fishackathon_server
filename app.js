@@ -17,6 +17,12 @@ mongoose.connect(MONGOURL, err => {
     console.log(err || `Connected to MongoDB at ${MONGOURL}`);
 });
 
+var MessageType = {
+    QUERY_LATEST: 0,
+    QUERY_ALL: 1,
+    RESPONSE_BLOCKCHAIN: 2
+};
+
 var app = express();
 
 // view engine setup
@@ -65,6 +71,5 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-
 
 module.exports = app;
